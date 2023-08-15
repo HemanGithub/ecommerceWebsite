@@ -1,0 +1,51 @@
+.website-logo{
+    height: 50px;
+    width: 150px;
+}
+
+.nav-menu{
+    list-style-type: none;
+    display: flex;
+    width: 40%;
+    justify-content: space-evenly;
+}
+
+
+.nav-content{
+    display: flex;
+    padding: 8px 0px;
+    align-items: center;
+    justify-content: space-around;
+    background-color: aliceblue;
+}
+.nav-link{
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+}
+.cart-count-badge {
+    background-color: #bfdbfe;
+    color: #0967d2;
+    font-family: 'Roboto';
+    font-size: 12px;
+    font-weight: 500;
+    border-radius: 50%;
+    padding-left: 5px;
+    padding-top: 2px;
+    padding-right: 5px;
+    padding-bottom: 2px;
+    margin-left: 8px;
+  }
+
+  .logout-btn {
+    font-family: 'Roboto';
+    font-size: 14px;
+    color: #ffffff;
+    height: 30px;
+    width: 120px;
+    background-color: #0b69ff;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+  }

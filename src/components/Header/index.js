@@ -62,6 +62,39 @@ const cartItemsCount = cartList.length
             />
           </button> */}
       </div>
+      <div className="nav-menu-mobile">
+        <ul className="nav-menu-list-mobile">
+          <li className="nav-menu-item-mobile">
+            <NavLink to="/" className="nav-link">
+              <img
+                src="https://assets.ccbp.in/frontend/react-js/nxt-trendz-home-icon.png"
+                alt="nav home"
+                className="nav-bar-image"
+              />
+            </NavLink>
+          </li>
+
+          <li className="nav-menu-item-mobile">
+            <NavLink to="/products" className="nav-link">
+              <img
+                src="https://assets.ccbp.in/frontend/react-js/nxt-trendz-products-icon.png"
+                alt="nav products"
+                className="nav-bar-image"
+              />
+            </NavLink>
+          </li>
+          <li className="nav-menu-item-mobile">
+            <NavLink to="/cart" className="nav-link">
+              <img
+                src="https://assets.ccbp.in/frontend/react-js/nxt-trendz-cart-icon.png"
+                alt="nav cart"
+                className="nav-bar-image"
+              />
+              {renderCartItemsCount()}
+            </NavLink>
+          </li>
+        </ul>
+      </div>
     </nav>
   )
 }

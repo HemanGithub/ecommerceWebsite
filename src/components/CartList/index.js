@@ -9,7 +9,7 @@ const  CartList=()=>{
     const value = useContext(CartContext)
     const {cartList} = value
     return(
-        <ul>
+        <ul className="cart-list">
             {cartList.map(eachCartItem=>
                 <CartItem cartItemDetails={eachCartItem} key={eachCartItem.id}/>)}
         </ul>
